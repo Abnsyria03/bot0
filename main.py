@@ -4,7 +4,7 @@ from pyromod import listen
 from keep import alive
 from pyrogram import Client, filters, enums
 p = dict(root='plugins')
-import Client
+import uuid
 
 db = Client("data.sqlite", 'fuck')
 if not db.exists("admin_list"):
