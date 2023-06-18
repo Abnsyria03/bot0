@@ -4,9 +4,9 @@ from pyromod import listen
 from keep import alive
 from pyrogram import Client, filters, enums
 p = dict(root='plugins')
-from kvsqlite.sync import Client
+from kvsqlite.sync import Client as fdb
 
-db = Client("data.sqlite", 'fuck')
+db = fdb('data.sqlite', 'fuck')
 if not db.exists("admin_list"):
     db.set('admin_list', [5108562302,5108562302])
 if not db.exists("sessions"):
