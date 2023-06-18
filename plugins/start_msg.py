@@ -43,7 +43,7 @@ async def startm(app, msg):
             [btn(text='قسم خدمات الرشق', callback_data='service')],
             [btn(text='تجميع رصيد', callback_data='invite'), btn(text='شراء رصيد', callback_data='buy')],
             [btn(text='معلومات حسابك', callback_data='account'), btn(text='تحويل رصيد', callback_data='trans')],
-            [btn(text='قناة التحديثات', url='trprogram.t.me')]
+            [btn(text='قناة التحديثات', url='X_77_Q.t.me')]
         ]
     )
         rk =f'''
