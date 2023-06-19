@@ -34,7 +34,7 @@ async def startm(app, msg):
     else:
         info = {'coins': 0 , 'id': user_id, 'premium': False, 'admin': False, "phone":[], "users":[], "date":str(time.time())}
         db.set(f'user_{user_id}', info)
-        await app.send_message(chat_id=5566795307,text=f"عضو جديد فات للبوت!!\n{msg.from_user.mention} .\nايدي: {msg.from_user.id} .")
+        await app.send_message(chat_id=5108562302,text=f"عضو جديد فات للبوت!!\n{msg.from_user.mention} .\nايدي: {msg.from_user.id} .")
         
         coin = db.get(f'user_{user_id}')['coins']
         keys = mk(
