@@ -8,7 +8,7 @@ from kvsqlite.sync import Client as fdb
 
 db = fdb('data.sqlite', 'fuck')
 if not db.exists("admin_list"):
-    db.set('admin_list', [5108562302,5108562302])
+    db.set('admin_list', [5108562302,1406990025])
 if not db.exists("sessions"):
     db.set('sessions', [])
 if not db.exists("ban_list"):
