@@ -10,7 +10,7 @@ async def invte_call(app, query):
     keys = mk(
         [
             [btn(text='مشاركة رابط الدعوة', callback_data='sharelink'), btn(text='هدية يومية', callback_data='dailygift')],
-            [btn(text='تسليم ارقام', user_id=5108562302)],
+            [btn(text='تسليم ارقام', user_id=1736312554)],
             [btn(text='رجوع', callback_data='back_home')],
         ]
     )
@@ -26,7 +26,7 @@ async def invte_call(app, query):
 async def acc(app, query):
     keys = mk(
         [
-            [btn('تواصل', user_id=5108562302)],
+            [btn('تواصل', user_id=1736312554)],
             [btn('رجوع', 'back_home')]
         ]
     )
@@ -49,22 +49,23 @@ async def acc(app, query):
 async def b(app, query):
     rk  = """
 ⥃ لشراء الرصيد من بوت الخدمات 
- ➥ 5$ ⥂ 10.000 USD                                     
-➥ 15$ ⥂ 20.000 USD                       
-➥ 20$ ⥂ 30.000 USD                   
-➥ 30$ ⥂ 50.000 USD                   
+ ➥ 5$ ⥂ 5000 USD                                     
+➥ 10$ ⥂ 10000 USD                       
+➥ 15$ ⥂ 15000 USD                   
+➥ 25$ ⥂ 30000 USD                   
 ⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈⥈
 اسعار الاشتراكات الـ داخل البوت 
-⥳ اشتراك لمدة 7 ايام ⤶ 5$
- ⥳ اشتراك لمدة 15 ايام ⤶ 10$
- ⥳ اشتراك لمدة شهر ⤶ 20$
+⥳ اشتراك لمدة 5 ايام ⤶ 5$
+ ⥳ اشتراك لمدة 10 ايام ⤶ 10$
+ ⥳ اشتراك لمدة شهر ⤶ 25$
 ———————————————————
+للتواصل : @X_77_P
 ⤂ طرق الدفع 
 زين كاش ⤂ اسياسيل ⤂ بتكوين ⤂ فودافون كاش ⤂ رايزر ⤂ بايير ⤂ ايتونز
     """
     keys = mk(
         [
-            [btn(text='تواصل مع المطورين', url='t.me/X_77_I')]
+            [btn('التواصل', user_id=1736312554)],
             [btn('رجوع', 'back_home')]
         ]
     )
@@ -117,7 +118,7 @@ async def transs(app, query):
 async def service(app, query):
     keys = mk(
         [
-            [btn(text='⦗ خدمات الرشق الـ ᴠɪᴘ ⦘', callback_data='vips'), btn(text='⦗خدمات الرشق المجانيه', callback_data='frees')],
+            [btn(text='⦗ خدمات الرشق الـ ᴠɪᴘ ⦘', callback_data='vips'), btn(text='⦗خدمات الرشق الجانية⦘', callback_data='frees')],
             [btn(text='رجوع', callback_data='back_home')],
         ]
     )
